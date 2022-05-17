@@ -54,7 +54,7 @@ const Popular = () => {
 };
 
 const Wrapper = styled.div`
-  margin: 4rem 0rem;
+  margin: 2rem 0rem;
 `;
 const Card = styled.div`
   min-height: 25rem;
@@ -76,14 +76,14 @@ const Card = styled.div`
     position: absolute;
     z-index: 10;
     left: 50%;
-    bottom: 20%;
+    bottom: 40%;
     transform: translate(-50%, 0%);
     color: white;
     width: 100%;
     text-align: center;
     font-weight: 600;
-    font-size: 1rem;
-    height: 40%;
+    font-size: 0.9rem;
+    height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
